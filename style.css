@@ -1,0 +1,305 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  background-color: aqua;
+  font-family: "Poppins", sans-serif;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+.top_icon_section {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo_area img {
+  width: 95px;
+  margin-top: 20px;
+}
+/* icon section start */
+.icon_area {
+  margin-top: 20px;
+}
+.icon_area a i {
+  background-color: blue;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 20px;
+}
+.icon_area a i.blue {
+  background-color: rgb(46, 78, 139);
+}
+.icon_area a i.blue2 {
+  background-color: rgb(97, 145, 233);
+}
+.icon_area a i.red {
+  background-color: rgb(216, 27, 27);
+}
+.icon_area a i.black {
+  background-color: rgb(10, 13, 17);
+}
+.icon_area a i:hover {
+  color: darkkhaki;
+} /* icon section end */
+
+/*Menu & Banner section start*/
+.section_part {
+  display: grid;
+  grid-template-columns: repeat(12, 100px);
+}
+/* image section */
+.menu_Section {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 520px;
+  width: 275px;
+  border-radius: 15px;
+  position: relative;
+  background-color: rgb(243, 240, 247);
+}
+.font_top {
+  position: relative;
+  height: 140px;
+  background-color: #feb224;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.font_top .images {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top: 50px;
+  left: 77px;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  background-image: url(img/parsion_image.jpg);
+  background-size: 100% 100%;
+} /* image section end */
+
+/* menu section setar */
+.menu_Section nav ul {
+  margin-top: 60px;
+}
+.menu_Section nav ul hr {
+  width: 150px;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+}
+.menu_Section nav ul li {
+  list-style: none;
+  /* text-align: center; */
+  margin-left: 65px;
+  padding: 12px;
+}
+.menu_Section nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+.menu_Section nav ul li a:hover {
+  color: red;
+}
+.menu_Section nav ul li a i {
+  padding-right: 15px;
+  color: rgb(245, 103, 8);
+} /* menu section setar */
+
+/* Banner Section Start */
+.banner_section {
+  display: grid;
+  grid-column-start: 4;
+  grid-column-end: -1;
+  background-color: black;
+  height: 520px;
+  width: 900px;
+  background-image: url(img/fast_banner.jpg);
+  background-size: 100% 100%;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+.font_area {
+  height: 100%;
+  width: 900px;
+  background-color: rgb(25, 57, 87);
+  opacity: 0.8;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+.font_area .top1 {
+  position: absolute;
+  color: rgb(255, 51, 0);
+  top: 150px;
+  left: 410px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.font_area h1 {
+  position: absolute;
+  color: #fff;
+  top: 200px;
+  left: 320px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.font_area p {
+  position: absolute;
+  color: rgb(202, 202, 202);
+  top: 262px;
+  left: 195px;
+  font-size: 20px;
+}
+.font_area h3 {
+  position: absolute;
+  color: rgb(202, 202, 202);
+  top: 295px;
+  left: 382px;
+  font-size: 18px;
+}
+.font_area a button {
+  position: absolute;
+  background-color: rgb(255, 51, 0);
+  color: #fff;
+  border-style: none;
+  border-radius: 5px;
+  padding: 8px 25px;
+  top: 350px;
+  left: 376px;
+  font-size: 18px;
+}
+.font_area a button:hover {
+  background-color: rgb(175, 115, 74);
+}
+.font_area span a i {
+  position: absolute;
+  bottom: 40px;
+  left: 457px;
+  color: rgb(255, 51, 0);
+} /*Banner section end */
+
+/* Main section start */
+/* About section start */
+.about_section {
+  display: flex;
+  gap: 20px;
+  height: 570px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.part_a {
+  position: relative;
+  height: 600px;
+  width: 560px;
+}
+.part_a img {
+  position: absolute;
+  height: 320px;
+  width: 270px;
+  top: 5px;
+  left: 5px;
+  border-radius: 20px;
+}
+.part_a .notes {
+    position: absolute;
+    width: 270px;
+    height: 450px;
+    background-color: rgb(241, 94, 57);
+    border-radius: 20px;
+    right: 30px;
+    top: 70px;
+    padding: 20px;
+}
+.notes .dashed{
+    border-bottom: 1px dashed black;
+    padding: 15px;
+}
+.notes .dashed h1{
+    font-size: 19px;
+    color: #fff;
+}
+.notes .dashed h2{
+    font-size: 17px;
+    color: #fff;
+}
+.dashed1{
+    padding: 15px;
+}
+.notes .dashed1 h1{
+    font-size: 19px;
+    color: #fff;
+}
+.notes .dashed1 h2{
+    font-size: 17px;
+    color: #fff;
+ }/*part a end */
+/* Part b start */
+.part_b {
+    position: relative;
+    height: 600px;
+    width: 560px;
+}
+.part_b h2{
+    position: absolute;
+    color: rgb(241, 94, 57);
+}
+.part_b h1{
+    position: absolute;
+    font-weight: bold;
+    top: 40px;
+    font-size: 40px;
+}
+.part_b h3{
+    position: absolute;
+    top: 160px;
+}
+.part_b p{
+    position: absolute;
+    top: 230px;
+    font-size: 20px;
+    color: #8a8787;
+}
+.part_b a button{
+    position: absolute;
+    bottom: 150px;
+    background-color:rgb(241, 94, 57) ;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px 35px;
+    color: #ddd;
+    font-weight: bold;
+    font-size: 15px;
+}
+.part_b a button:hover{
+    background-color: orange;
+}/* part b end */
+
+/* Resume section start */
+.resume_section{
+  display: flex;
+  height: 800px;
+  background-color: blueviolet;
+  border-radius: 20px;
+  padding: 40px;
+  gap: 5px;
+}
+.same-to{
+  width: 50%;
+  height: 100%;
+  background-color: chartreuse;
+}
