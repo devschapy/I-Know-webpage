@@ -5,10 +5,11 @@
 html,
 body {
   height: 100%;
+  /* width: 1340px; */
 }
 .wrapper {
-  width: 100%;
-  background-color: rgb(232, 241, 241);
+  width: 1340px;
+  background-color: rgb(66, 133, 133);
   font-family: "Poppins", sans-serif;
 }
 .content {
@@ -16,6 +17,7 @@ body {
   margin: 0 auto;
 }
 .top_icon_section {
+  width: 1200px;
   height: 75px;
   display: flex;
   justify-content: space-between;
@@ -783,3 +785,401 @@ top: 18px;
  .right_footer h4 a:hover{
    color: tomato;
  } /* Footer Section End */
+
+
+
+ /* @media Section Start */
+    /* Tablet device */
+
+ @media screen and (max-width: 768px){
+
+  .wrapper {
+    width: 768px;
+    /* background-color: rgb(16, 209, 58); */
+    font-family: "Poppins", sans-serif;
+  }
+  .content {
+    width: 760px;
+  }
+  .top_icon_section {
+    width: 760px;
+  }
+  /* Menu area start */
+  .section_part {
+    display: block;
+  }
+  .menu_Section{
+    width: 100%;
+    height: 48px;
+    background-color: silver;
+  }
+  .menu_Section nav ul {
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+  .menu_Section nav ul li {
+    display: inline-block;
+    margin-left: 0px;
+    padding: 15px;
+    border-right: 1px dashed rgb(138, 127, 127);
+  }
+  .menu_Section nav ul li a i {
+    display: none;
+  }
+  .menu_Section nav ul li:first-child {
+    background-color: tomato;
+  }
+  .menu_Section nav ul li a:hover{
+    color: red;
+  }
+  .menu_Section nav ul hr {
+    display: none;
+  }
+  .font_top {
+    display: none;
+  }/*menu area end */
+
+   /* banner Section start */
+   .banner_section {
+    width: 760px;
+    margin-top: 20px;
+  }
+   .font_area {
+    width: 760px;
+  }
+  /* notes section start */
+  .font_area .top1{
+    left: 320px;
+  }
+  .font_area h1{
+    left: 233px;
+  }
+  .font_area p{
+    left:112px;
+  }
+  .font_area h3{
+    left: 295px;
+  }
+  .font_area a button {
+    left: 290px;
+  }
+  .font_area span a i {
+    left: 374px;
+  }
+  .part_a img {
+    height: 210px;
+    width: 180px;
+  }
+  .part_a .notes {
+    width: 210px;
+    height: 389px;
+    top: 157px;
+  }
+  .notes .dashed h1 {
+    font-size: 15px;
+  }
+  .notes .dashed h2 {
+    font-size: 12px;
+  }
+  .part_b p {
+    top: 290px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .part_b h3 {
+    top: 160px;
+    line-height: 26px;
+  }
+  .part_b a button {
+    bottom: 60px;
+   }/*notes section end */
+  
+    /* Resume Section start */
+   .resume_section {
+    height: 1200px;
+    padding: 30px;
+  }
+  .top_up h1 {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .top_dott h1 {
+    font-size: 26px;
+    margin-top: 0px;
+  }
+  .top_dott .dott {
+    height: 16px;
+    width: 16px;
+  }
+  .dott .smoll {
+    border: 4px solid rgb(252, 239, 239);
+  }
+  .sameler h2 {
+    font-size: 19px;
+  }
+  .sameler h3 {
+    font-size: 15px;
+  }
+  .sameler span {
+    padding: 5px 10px;
+    right: 40px;
+    top: 8px;
+    font-size: 12px;
+  }
+
+  .secend_part .dowen {
+    top: 141px;
+  }
+  .skill_area {
+    margin: 200px 0px 0px 0px;
+    padding: 0px;
+  }
+  .line_area span {
+    right: 35px;
+  }
+  .line_area .span_b {
+    right: 105px;
+  }
+  .line_area .span_c {
+    right: 69px;
+  }
+  .line_area {
+    margin: 25px 0px;
+  }
+  .secend_part .dowen_b {
+    top: 440px;
+  }
+  .softower_skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    height: 500px;
+    margin-top:100px;
+    margin-right: 0px;
+  }
+  .sircle_s {
+    width: 170px;
+    height: 215px;
+  }
+  .silvera {
+    height: 140px;
+    width: 140px;
+  }
+  .tomatoa {
+    height: 150px;
+    width: 150px;
+  }
+  .silvera span {
+    top: 62px;
+    left: 58px;
+  }
+  .sircle_s h2 {
+    margin-left: 15px;
+  }/* Resume Section start */
+  .portfolio_section {
+    width: 92%;
+    height: 622px;
+    padding: 30px;
+  }
+  .upper h1 {
+    font-size: 29px;
+  }
+  .portfolio_section nav {
+    left: 119px;
+  }
+  .image {
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+  .image a img {
+    height: 180px;
+    width: 180px;
+  }
+
+  /* Service section start */
+  .service_section {
+    height: 750px;
+    margin-top: 40px;
+    padding: 30px;
+  }
+  .box_area {
+    width: 225px;
+    height: 285px;
+    margin-top: 10px;
+  }
+  .box_area a i {
+    position: absolute;
+    top: 25px;
+    left: 87px;
+    font-size: 25px;
+    padding: 15px;
+  }
+  .box_area h2 {
+    margin-top: 95px;
+    font-size: 20px;
+  }
+  .box_area p {
+    margin: 20px 22px 0px 30px;
+    font-size: 18px;
+  }
+
+  /* Testimonial section start */
+  .testimonial {
+    height: 385px;
+    padding: 30px;
+    margin-top: 40px;
+  }
+  .area_content {
+    height: 205px;
+    width: 225px;
+  }
+  .area_content p {
+    top: 0px;
+    padding: 20px;
+    font-size: 14px;
+  }
+  .area_content img {
+    height: 30px;
+    width: 30px;
+    top: 140px;
+    left: 20px;
+  }
+  .area_content h2 {
+    top: 137px;
+    left: 59px;
+    font-size: 16px;
+  }
+  .area_content h3 {
+    top: 155px;
+    left: 58px;
+    font-size: 13px;
+  }
+  .area_content i {
+    top: 141px;
+    right: 25px;
+    font-size: 24px;
+  }
+  .dott3_area .aa {
+    height: 10px;
+    width: 10px;
+  } /* Testimonial section end */
+
+  /* Blog area start */
+  .blog_section {
+    height: 560px;
+    margin-top: 40px;
+    padding: 30px;
+  }
+  .part_x img {
+    height: 139px;
+    width: 220px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 30px;
+  }
+  .part_x {
+    height: 313px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: rgb(240, 235, 235);
+  }
+
+
+
+ }
+
+
+ /* mobile device Start */
+
+ @media screen and (max-width: 576px){
+
+  .wrapper {
+    width: 576px;
+    background-color: rgb(90, 16, 209);
+    font-family: "Poppins", sans-serif;
+  }
+  .content {
+    width: 550px;
+  }
+  .top_icon_section {
+    width: 550px;
+  } 
+  /* Menu section start */
+  .menu_Section {
+    width: 100%;
+    height: 40px;
+    background-color: tomato;
+  }
+  .menu_Section nav ul li {
+    display: inline-block;
+    margin-left: 0px;
+    padding: 10px;
+    border-right: 1px dashed rgb(138, 127, 127);
+  }
+  .menu_Section nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .banner_section {
+    width: 550px;
+    height: 350px;
+  }
+   .font_area {
+    width: 550px;
+    height: 350px;
+  }
+  .font_area .top1 {
+    left: 225px;
+    top: 50px;
+  }
+  .font_area h1 {
+    left: 147px;
+    top: 100px;
+    font-size: 38px;
+  }
+  .font_area p {
+    left: 66px;
+    top: 162px;
+    font-size: 16px;
+  }
+  .font_area h3 {
+    left: 197px;
+    top: 196px;
+  }
+  .font_area a button {
+    left: 191px;
+    top: 250px;
+  }
+  .font_area span a i {
+    left: 272px;
+    bottom: 12px;
+  }
+  /* about section start */
+  .about_section {
+    height: 800px;
+    padding: 5px;
+  }
+  .part_a .notes {
+    width: 145px;
+    height: 263px;
+    top: 157px;
+  }
+  .notes .dashed {
+    padding: 7px;
+  }
+  .notes .dashed h1 {
+    font-size: 10px;
+  }
+  .notes .dashed1 h2 {
+    font-size: 12px;
+  }
+  .notes .dashed1 h1 {
+    font-size: 11px;
+  }
+
+
+
+
+ }
